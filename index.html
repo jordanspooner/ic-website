@@ -3,25 +3,30 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=480">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Jordan Spooner</title>
 
-  <link rel="stylesheet" href="main.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/responsive.js"></script>
 </head>
 
 <body>
 
-<div id="header"></div>
-
-<div id="miniheader"></div>
-
 <div id="wrapper">
 
-    <h1>Jordan Spooner</h1>
+<div id="min-topbar">
 
-<div id="leftcol"><div id="inner">
+    <h1>Jordan Spooner<img id="menu-btn" src="img/menu.png" align="right" width="36"></h1>
+
+</div>
+
+<div id="leftcol">
+
+    <h1 id="lefttitle">Jordan Spooner</h1>
 
     <h2>About</h2>
 
@@ -56,13 +61,15 @@
         <!--<a href="#161">161</a> : Laboratory 1<br>-->
         <!--<a href="#163">163</a> : Computing Topics--></p>
 
-</div></div>
+</div>
 
-<div id="rightcol"><div id="inner">
+<div id="rightcol">
 
-    <h2>Computing Year 1</h2>
+    <h1>Computing Year 1</h1>
 
-        <p>Below are my notes and solutions to past papers for the first year computing course at Imperial. Please let me know if you find any errors.</p>
+    <h2>Completed Courses</h2>
+
+        <p>Below are my notes and solutions to past papers for the completed first year computing modules at Imperial. Please let me know if you find any errors.</p>
 
 
 
@@ -135,24 +142,6 @@
 
 
 
-        <!--<<h3 id="161">CO161 : Laboratory 1</h3>
-
-            <h4>Haskell</h4>
-
-            <p>1 : Sequences [<a href="/~js4416/161/haskellsequences/">Directory</a>]<br>
-            2 : Cryptography [<a href="/~js4416/161/haskellcrypto/">Directory</a>]<br>
-            3 : Macroprocessor [<a href="/~js4416/161/haskellmacroprocessor/">Directory</a>]<br>
-            4 : L-Systems [<a href="/~js4416/161/haskelllsystems/">Directory</a>]<br>
-            5 : Calculus [<a href="/~js4416/161/haskellcalculus/">Directory</a>]</p>
-
-            <h4>Java</h4>
-
-            <p>1 : Recursion [<a href="/~js4416/161/javarecursion/">Directory</a>]<br>
-            2 : Loops and Arrays [<a href="/~js4416/161/javaloopsandarrays/">Directory</a>]<br>
-            3 : Pawn Race [<a href="/~js4416/161/javapawnrace/">Directory</a>]</p>-->
-
-
-
         <!--<h3 id="163">CO163 : Computing Topics</h3>
 
             <h4>Neural Networks and their Applications : Autoencoders</h4>
@@ -178,9 +167,9 @@
 
     <h3 id="120.2">CO120.2 : Programming II : Programming in Java</h3>
 
-        <h4>Course Notes</h4>
+        <!--<h4>Course Notes</h4>
 
-        <p>Reference Sheet for CO120.2 [<a href="/~js4416/120.2/notes.pdf" style="color:red">Working on it!</a>]</p>
+        <p>Reference Sheet for CO120.2 [<a href="/~js4416/120.2/notes.pdf">PDF</a>]</p>-->
 
         <h4>Practice Tests</h4>
 
@@ -198,11 +187,11 @@
 
 
 
-    <h3 id="141">CO141 : Reasoning about Programs</h3>
+    <!--<h3 id="141">CO141 : Reasoning about Programs</h3>
 
         <h4>Course Notes</h4>
 
-        <p>Reference Sheet for CO141 [<a href="/~js4416/141/notes.pdf" style="color:red">Working on it!</a>]</p>
+        <p>Reference Sheet for CO141 [<a href="/~js4416/141/notes.pdf">PDF</a>]</p>-->
 
 
 
@@ -212,7 +201,7 @@
 
         <p>Reference Sheet for CO142.2 [<a href="/~js4416/142.2/notes.pdf">PDF</a>]</p>
 
-</div></div>
+</div>
 
 </div>
 

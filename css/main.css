@@ -1,0 +1,181 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Mobile */
+
+#min-topbar{
+	display: none;
+	height: 80px;
+	padding: 12px;
+    margin-top: -16px;
+	background-color: rgb(40,40,40);
+}
+
+#menu-btn{
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #min-topbar {
+        display: block !important;
+    }
+    #leftcol{
+        display: none;
+        position: static !important;
+        float: none !important;
+        width: auto !important;
+        height: auto !important;
+    }
+    #lefttitle{
+        display: none;
+    }
+    #rightcol {
+        margin-left: 0px !important;
+        height: auto !important;
+    }
+}
+
+@media (min-width: 769px) {
+    #leftcol{
+        display: block !important;
+    }
+}
+
+/* Text Style */
+
+h1{
+	color: rgb(100,100,100);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	margin-top: 24px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+h2{
+	color: rgb(80,80,80);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	border-top-width: thick;
+	border-top-style: solid;
+	border-top-color: rgb(80,80,80);
+	margin-top: 48px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+h3{
+	color: rgb(40,40,40);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-style: bold;
+	border-top-width: medium;
+	border-top-style: solid;
+	border-top-width: rgb(40,40,40);
+	margin-top: 48px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+
+}
+
+h4{
+	color: rgb(20,20,20);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-style: bold;
+	padding-left: 18px;
+	padding-right: 6px;
+}
+
+p{
+	color: rgb(20,20,20);
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 16px;
+	padding-left: 18px;
+	padding-right: 6px;
+}
+
+a:link, a:visited{
+	color: rgb(80,80,80);
+	text-decoration: none;
+}
+
+p a:hover{
+	color: rgb(40,40,40);
+	text-decoration: none;
+	border-bottom: 1px dotted;
+}
+
+#leftcol h1{
+	color: rgb(240,240,240);
+}
+
+#min-topbar h1{
+	color: rgb(240,240,240);
+}
+
+#leftcol h2{
+	color: rgb(200,200,200);
+	border-top-color: rgb(200,200,200);
+}
+
+#leftcol h3{
+	color: rgb(240,240,240);
+	border-top-width: rgb(240,240,240);
+
+}
+
+#leftcol h4{
+	color: rgb(250,250,250);
+}
+
+#leftcol p{
+	color: rgb(250,250,250);
+}
+
+#leftcol a:link, #leftcol a:visited{
+	color: rgb(220,220,220);
+}
+
+#leftcol p a:hover{
+	color: rgb(240,240,240);
+}
+
+/* Page Structure */
+
+html,body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: rgb(240,240,240);
+	height: 100%;
+}
+
+#wrapper{
+	height: 100%;
+}
+
+#leftcol{
+	position: fixed;
+	float: left;
+	height: 100%;
+	width: 276px;
+	padding-left: 12px;
+	padding-right: 12px;
+	overflow-y: auto;
+	background-color: rgb(40,40,40);
+}
+
+#rightcol{
+	float: left;
+	min-height: 100%;
+	max-width: 776px;
+	margin-left: 300px;
+	padding-left: 12px;
+	padding-right: 12px;
+	background-color: rgb(250,250,250);
+}
