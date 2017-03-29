@@ -12,6 +12,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/responsive.js"></script>
+  <script src="js/compile-latex.js"></script>
 </head>
 
 <body>
@@ -49,35 +50,62 @@
     <h2>Courses</h2>
 
         <h4>Computing Year 1</h4>
-        <p><!--<a href="#113">113</a> : Architecture<br>-->
+        <p><a href="#113">113</a> : Architecture<br>
         <a href="#120.1">120.1</a> : Programming I<br>
-        <!--<a href="#120.2">120.2</a> : Programming II<br>-->
-        <!--<a href="#130">130</a> : Databases<br>-->
+        <a href="#120.2">120.2</a> : Programming II<br>
+        <a href="#130">130</a> : Databases<br>
         <a href="#140">140</a> : Logic<br>
-        <!--<a href="#120.2">141</a> : Reasoning about Programs<br>-->
+        <a href="#120.2">141</a> : Reasoning about Programs<br>
         <a href="#142.1">142.1</a> : Discrete Mathematics I<br>
-        <!--<a href="#120.2">142.2</a> : Discrete Mathematics II<br>-->
+        <a href="#120.2">142.2</a> : Discrete Mathematics II<br>
         <a href="#145">145</a> : Mathematical Methods<br>
-        <!--<a href="#161">161</a> : Laboratory 1<br>-->
-        <!--<a href="#163">163</a> : Computing Topics--></p>
+        <a href="#161">161</a> : Laboratory 1<br>
+        <a href="#163">163</a> : Computing Topics</p>
 
 </div>
 
 <div id="rightcol">
 
-    <h1>Computing Year 1</h1>
+    <h1>Notes and Solutions</h1>
 
-    <h2>Completed Courses</h2>
+    <h2>First Year</h2>
 
-        <p>Below are my notes and solutions to past papers for the completed first year computing modules at Imperial. Please let me know if you find any errors.</p>
+        <p>Below are my notes and solutions to past papers for the completed first year computing modules at Imperial.</p>
 
+        <h4>Compiling the Notes</h4>
+
+        <p>Due to the frequency of changes to the notes, I no longer provide them in PDF format. Whilst I have written code to compile the .tex files automatically, sadly it cannot be run on the DoC web servers (since they don't have pdflatex). You can however compile them yourself on any lab machine.</p>
+
+        <h4>Errors, Corrections, Suggestions and Extensions</h4>
+
+        <p>If you use these notes, please help me to improve them.</p>
+
+        <p>I have recently made the LaTeX source for all my notes openly available on <a href="https://github.com/jordanspooner/first-year-notes">GitHub</a>. If you submit an issue or a pull request, you should find yourself adequately rewarded in <a href="#nerd-points">nerd points</a>:</p>
+
+        <p><ul>
+        <li>The first finder of any <b>error</b> (<a href="https://github.com/jordanspooner/first-year-notes/issues">submit an issue</a>) will receive a tidy sum of 0.32 nerd points.
+        <li>If you then provide a <b>correction</b> (<a href="https://github.com/jordanspooner/first-year-notes/pulls">submit a pull request</a>), you will receive an additional 0.32 nerd points.
+        <li>A valuable <b>suggestion</b> (<a href="https://github.com/jordanspooner/first-year-notes/issues">submit an issue</a>) is worth 0.08 nerd points.
+        <li>A <b>minor extension</b> (<a href="https://github.com/jordanspooner/first-year-notes/pulls">submit a pull request</a>) is worth 0.16 nerd points.
+        <li>If you provide a <b>significant extension</b> (<a href="https://github.com/jordanspooner/first-year-notes/pulls">submit a pull request</a>) to the notes, I will give you a full 1.28 nerd points.
+        </ul>
+
+        <p>I will similarly reward the first individuals who find and correct errors (<a href="mailto:js4416@ic.ac.uk">drop me a quick email</a>) in past paper solutions with 0.64 nerd points.</p>
+
+
+
+    <h3 id="113">CO113 : Architecture</h3>
+
+        <h4>Course Notes</h4>
+
+        <p>Reference Sheet for CO113 [<a href="https://raw.githubusercontent.com/jordanspooner/first-year-notes/master/113.tex">LaTeX Source</a>]</p>
 
 
         <h3 id="120.1">CO120.1 : Programming I : Programming in Haskell</h3>
 
             <h4>Course Notes</h4>
 
-            <p>Reference Sheet for CO120.1 [<a href="/~js4416/120.1/notes.tex">LaTeX Source</a>] [<a href="/~js4416/120.1/notes.pdf">PDF</a>]</p>
+            <p>Reference Sheet for CO120.1 [<a href="https://raw.githubusercontent.com/jordanspooner/first-year-notes/master/120.1.tex">LaTeX Source</a>]</p>
 
             <h4>Problem Sheets</h4>
 
@@ -106,70 +134,11 @@
 
 
 
-        <h3 id="140">CO140 : Logic</h3>
-
-            <h4>Course Notes</h4>
-
-            <p>Reference Sheet for CO140 [<a href="/~js4416/140/notes.tex">LaTeX Source</a>] [<a href="/~js4416/140/notes.pdf">PDF</a>]</p>
-
-            <h4>Problem Sheets</h4>
-
-            <p>2 : Q5 | 4 : Q3 | 5 : Q1(f,i,j,k) | 6 : Q4, 5 | 7 : Q2(f) | 8 : Q5, 6(b,c), 7(d,e,f,g)</p>
-
-
-
-        <h3 id="142.1">CO142.1 : Discrete Mathematics I</h3>
-
-            <h4>Course Notes</h4>
-
-            <p>Reference Sheet for CO142.1 [<a href="/~js4416/142.1/notes.tex">LaTeX Source</a>] [<a href="/~js4416/142.1/notes.pdf">PDF</a>]</p>
-
-            <h4>Problem Sheets</h4>
-
-            <p>1 : Q29(vi,viii), 30, 34 | 2 : Q22, 26, 31, 35 | 4 : Q39(i,iii), 40, 41(iii,iv) | 6 : Q11, 12, 14 | 7 : Q18</p>
-
-
-
-        <h3 id="145">CO145 : Mathematical Methods</h3>
-
-            <h4>Course Notes</h4>
-
-            <p>Reference Sheet for CO145 [<a href="/~js4416/145/notes.tex">LaTeX Source</a>] [<a href="/~js4416/145/notes.pdf">PDF</a>]</p>
-
-            <h4>Problem Sheets</h4>
-
-            <p>1 : Q5, 6(c), 8, 9 | 2 : Q6(c,d,f), 7 | 3 : Q5, 6, 9 | 4 : Q3, 4 | 5 : Q1(b,c), 4(b) | 6 : Q2, 3 | 7 : Q3(c,d), 6 | 8 : Q1, 2, 3, 4</p>
-
-
-
-        <!--<h3 id="163">CO163 : Computing Topics</h3>
-
-            <h4>Neural Networks and their Applications : Autoencoders</h4>
-
-            <p>My <a href="/~js4416/163">personal contributions</a> focus on the applications of autoencoders in Natural Language Processing.</p>-->
-
-    
-
-
-    <h2>Courses in Progress</h2>
-
-    <p>The courses below are still in progress. Notes will be updated at the end of each week, and are much more likely to contain errors.</p>
-
-
-
-    <h3 id="113">CO113 : Architecture</h3>
+    <h3 id="120.2">CO120.2 : Programming II : Programming in Java</h3>
 
         <h4>Course Notes</h4>
 
-        <p>Reference Sheet for CO113 [<a href="/~js4416/113/notes.pdf">PDF</a>]</p>
-
-
-
-    <h3 id="120.2">CO120.2 : Programming II : Programming in Java</h3>
-
-        <!--<h4>Course Notes</h4>
-
-        <p>Reference Sheet for CO120.2 [<a href="/~js4416/120.2/notes.pdf">PDF</a>]</p>-->
+        <p>Reference Sheet for CO120.2 [<a href="https://raw.githubusercontent.com/jordanspooner/first-year-notes/master/120.2.tex">LaTeX Source</a>]</p>
 
         <h4>Practice Tests</h4>
 
@@ -183,15 +152,39 @@
 
         <h4>Course Notes</h4>
 
-        <p>Reference Sheet for CO130 [<a href="/~js4416/130/notes.pdf">PDF</a>]</p>
+        <p>Reference Sheet for CO130 [<a href="https://raw.githubusercontent.com/jordanspooner/first-year-notes/master/130.tex">LaTeX Source</a>]</p>
 
 
 
-    <!--<h3 id="141">CO141 : Reasoning about Programs</h3>
+        <h3 id="140">CO140 : Logic</h3>
 
-        <h4>Course Notes</h4>
+            <h4>Course Notes</h4>
 
-        <p>Reference Sheet for CO141 [<a href="/~js4416/141/notes.pdf">PDF</a>]</p>-->
+            <p>Reference Sheet for CO140 [<a href="https://raw.githubusercontent.com/jordanspooner/first-year-notes/master/140.tex">LaTeX Source</a>]</p>
+
+            <h4>Problem Sheets</h4>
+
+            <p>2 : Q5 | 4 : Q3 | 5 : Q1(f,i,j,k) | 6 : Q4, 5 | 7 : Q2(f) | 8 : Q5, 6(b,c), 7(d,e,f,g)</p>
+
+
+
+        <h3 id="140">CO141 : Reasoning about Programs</h3>
+
+            <h4>Course Notes</h4>
+
+            <p>Reference Sheet for CO141 [<a href="https://raw.githubusercontent.com/jordanspooner/first-year-notes/master/141.tex">LaTeX Source</a>]</p>
+
+
+
+        <h3 id="142.1">CO142.1 : Discrete Mathematics I</h3>
+
+            <h4>Course Notes</h4>
+
+            <p>Reference Sheet for CO142.1 [<a href="https://raw.githubusercontent.com/jordanspooner/first-year-notes/master/142.1.tex">LaTeX Source</a>]</p>
+
+            <h4>Problem Sheets</h4>
+
+            <p>1 : Q29(vi,viii), 30, 34 | 2 : Q22, 26, 31, 35 | 4 : Q39(i,iii), 40, 41(iii,iv) | 6 : Q11, 12, 14 | 7 : Q18</p>
 
 
 
@@ -199,7 +192,54 @@
 
         <h4>Course Notes</h4>
 
-        <p>Reference Sheet for CO142.2 [<a href="/~js4416/142.2/notes.pdf">PDF</a>]</p>
+        <p>Reference Sheet for CO142.2 [<a href="https://raw.githubusercontent.com/jordanspooner/first-year-notes/master/142.2.tex">LaTeX Source</a>]</p>
+
+
+
+        <h3 id="145">CO145 : Mathematical Methods</h3>
+
+            <h4>Course Notes</h4>
+
+            <p>Reference Sheet for CO145 [<a href="https://raw.githubusercontent.com/jordanspooner/first-year-notes/master/145.tex">LaTeX Source</a>]</p>
+
+            <h4>Problem Sheets</h4>
+
+            <p>1 : Q5, 6(c), 8, 9 | 2 : Q6(c,d,f), 7 | 3 : Q5, 6, 9 | 4 : Q3, 4 | 5 : Q1(b,c), 4(b) | 6 : Q2, 3 | 7 : Q3(c,d), 6 | 8 : Q1, 2, 3, 4</p>
+
+
+
+        <h3 id="163">CO161 : Laboratory I</h3>
+
+            <p>These labs are still used by Imperial for teaching, so I cannot and will not post solutions publicly. <a href="mailto:js4416@ic.ac.uk">Send me a quick email</a> if you would like to see any of my completed lab exercises. You'll need to prove to me that you're not just a first year student trying to get out of writing the code yourself!</p>
+
+            <h4>Haskell</h4>
+
+            <p>1 : Sequences<br>
+            Finds the nth term of arithmetic and geometric sequences and series.</p>
+            <p>2 : Cryptography<br>
+            Implementation of public-key (RSA) and symmetric-key (ECB, CBC) cryptography.</p>
+            <p>3 : Macroprocessor<br>
+            A simple text macroprocessor.</p>
+            <p>4 : L-Systems<br>
+            Generates colourful, optionally probabilistic, fractal images (e.g. dragon curve, Koch snowflake, trees etc.).</p>
+            <p>5 : Calculus<br>
+            Evaluates symbolic differential calculus.</p>
+
+
+
+        <h3 id="163">CO163 : Computing Topics</h3>
+
+            <h4>Neural Networks and their Applications</h4>
+
+            <p>We (myself, Qiang Feng, Nikolai Smirnov, Laurence Squires) researched <a href="/~js4416/163/website">autoencoders and their applications</a>. I produced the section on the applications of autoencoders in natural language processing.</p>
+
+
+
+    <h2 id="nerd-points">Nerd Points</h2>
+
+        <p>Nikolai Smirnov : 0.32</p>
+        <p>Pranav Kalidindi : 0.32</p>
+        <p>Laurence Squires : 1.28</p>
 
 </div>
 
